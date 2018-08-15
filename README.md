@@ -17,17 +17,17 @@ struct Person: Codable {
 Reading from a json file
 ---
 
--
+---
 Get File
--
+---
 
 ```
 guard let file = Bundle.main.path(forResource: "Data", ofType: "json") else {return}
 ```
 
--
+---
 Read data and decode json data to model type. Then encode to data using PlistEncoder and save to user defaults
--
+---
 
 ```
 do {
@@ -48,7 +48,7 @@ do {
 }
 ```
 
---
+---
 Fetching Codable model back from user default
 ---
 
