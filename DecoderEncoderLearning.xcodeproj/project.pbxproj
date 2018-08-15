@@ -13,6 +13,7 @@
 		0450DAE1212403A00090E9EA /* DecoderEncoderLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0450DADF212403A00090E9EA /* DecoderEncoderLearning.xcdatamodeld */; };
 		0450DAE3212403A20090E9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0450DAE2212403A20090E9EA /* Assets.xcassets */; };
 		0450DAE6212403A20090E9EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0450DAE4212403A20090E9EA /* LaunchScreen.storyboard */; };
+		0450DAEE212403DD0090E9EA /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0450DAED212403DD0090E9EA /* Data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0450DAE2212403A20090E9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0450DAE5212403A20090E9EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0450DAE7212403A20090E9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0450DAED212403DD0090E9EA /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0450DAE4212403A20090E9EA /* LaunchScreen.storyboard */,
 				0450DAE7212403A20090E9EA /* Info.plist */,
 				0450DADF212403A00090E9EA /* DecoderEncoderLearning.xcdatamodeld */,
+				0450DAED212403DD0090E9EA /* Data.json */,
 			);
 			path = DecoderEncoderLearning;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				0450DAE6212403A20090E9EA /* LaunchScreen.storyboard in Resources */,
 				0450DAE3212403A20090E9EA /* Assets.xcassets in Resources */,
 				0450DADE212403A00090E9EA /* Main.storyboard in Resources */,
+				0450DAEE212403DD0090E9EA /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,6 +6,29 @@
 //  Copyright © 1397 AkshiOS. All rights reserved.
 //
 
+/*
+ if let path = Bundle.main.path(forResource: "Data", ofType: "json") {
+ 
+ do {
+ 
+ let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+ 
+ do  {
+ let person = try JSONDecoder().decode(Person.self, from: data)
+ print(person)
+ } catch let error {
+ print("JSON Decoding failed due to error: ", error)
+ }
+ 
+ 
+ 
+ 
+ } catch {
+ // handle error
+ }
+ }
+ */
+
 import UIKit
 import CoreData
 
