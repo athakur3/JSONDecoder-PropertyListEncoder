@@ -1,5 +1,7 @@
 # JSONDecoder-PropertyListEncoder
 
+Tutorial link - https://wp.me/p9Z0kR-1Z
+
 ---
 
  Creating Codable Model (eg.)
